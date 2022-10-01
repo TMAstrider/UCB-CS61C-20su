@@ -1,9 +1,9 @@
 1.
-2.
-3.
-4.
-5.
-6.
-7.
+2.b  line
+3.n
+4.s
+5.c
+6.print [expr]
+7.display [expr]
 8.
-9.
+9.Ctrl + D
