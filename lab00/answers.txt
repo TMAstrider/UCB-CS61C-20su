@@ -1,4 +1,5 @@
-1.find command  eg: find ./UCB_CS61C_20su/ -name lab00  ->  ./UCB_CS61C_20su/lab00
-2.top/ htop/ ps -aux | less
-3.kill PID
-4.diff filename1 filename2
+1.ls -la
+2.find command  eg: find ./UCB_CS61C_20su/ -name lab00  ->  ./UCB_CS61C_20su/lab00
+3.top/ htop/ ps -aux | less
+4.kill PID
+5.diff filename1 filename2
