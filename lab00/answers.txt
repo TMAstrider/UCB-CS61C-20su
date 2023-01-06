@@ -1,8 +1,9 @@
-1.mv
-2.chmod  +++ ---wrx
-3.pwd
-4.ping [hostIP]
-5.find command  eg: find ./UCB_CS61C_20su/ -name lab00  ->  ./UCB_CS61C_20su/lab00
-6.top/ htop/ ps -aux | less
-7.kill PID
-8.diff filename1 filename2
+1.ls -la
+2.mv
+3.chmod  +++ ---wrx
+4.pwd
+5.ping [hostIP]
+6.find command  eg: find ./UCB_CS61C_20su/ -name lab00  ->  ./UCB_CS61C_20su/lab00
+7.top/ htop/ ps -aux | less
+8.kill PID
+9.diff filename1 filename2
