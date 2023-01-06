@@ -1,0 +1,303 @@
+commit fbc260bbac775906fcde940eac112ff969e95bd0
+Merge: f040d8b d5b2bcf
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Thu Jan 5 22:35:42 2023 -0800
+
+    Answerd second set
+
+commit f040d8b31c3e4ae67ebba0b03c263b8e294273ab
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Thu Jan 5 22:33:07 2023 -0800
+
+    Answerd second set
+
+commit d5b2bcf8ec6136c89c13b747f812cf9df07838d8
+Author: Enrique <76558255+TMAstrider@users.noreply.github.com>
+Date:   Fri Jan 6 14:32:29 2023 +0800
+
+    Update answers.txt
+
+commit cbca5db57f7bdab5ff7f8aa0e82793697cbfdf0b
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Thu Jan 5 22:28:08 2023 -0800
+
+    Answerd third set
+
+commit b81c297ec47b63a886373e2ffa4a07943998901a
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Thu Jan 5 22:10:19 2023 -0800
+
+    Answered first set
+
+commit 2214158ec0ca1452554f5be60529b24f49b4c6a1
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Sat Oct 1 16:56:27 2022 +0800
+
+    implemented lab01
+
+commit d715917a5aebfe1c7cccc2273e161d00a1cc7da6
+Merge: c14dc80 6f44c18
+Author: TMAstrider <t.m.a.strider@gmail.com>
+Date:   Tue Sep 20 07:13:46 2022 -0700
+
+    pulled the starter code
+
+commit c14dc805e0bfebd5f2f54127595100f4deae4198
+Author: Enrique <76558255+TMAstrider@users.noreply.github.com>
+Date:   Mon Sep 19 23:24:43 2022 +0800
+
+    Initial commit
+
+commit 6f44c18fc8d02481a62d14c26a7e4d7921f77841
+Merge: e99fbdc af44f82
+Author: cynthiazz <42306162+cynthiazz@users.noreply.github.com>
+Date:   Sun Aug 2 01:26:43 2020 -0700
+
+    Merge pull request #7 from 61c-teach/lab10
+    
+    add lab10 starter
+
+commit e99fbdc76152712793e076eca5313a33f185df14
+Author: Cynthia Zhong <cynthia.zz@berkeley.edu>
+Date:   Sun Aug 2 01:24:31 2020 -0700
+
+    add lab11
+
+commit af44f82d1cb00388335d1ce845c0bc4e6a438a5b
+Author: Cynthia Zhong <cynthia.zz@berkeley.edu>
+Date:   Sat Aug 1 23:16:16 2020 -0700
+
+    add lab10 starter
+
+commit 289483e9ea00351592f58c3884a3f2bc4aafbac7
+Author: Cynthia Zhong <cynthia.zz@berkeley.edu>
+Date:   Sat Jul 25 00:19:45 2020 -0700
+
+    add lab09
+
+commit f86b0fe48a9737d78c95adbedd46efaf09948d19
+Author: ryansear <rvsearcy1@gmail.com>
+Date:   Sat Jul 11 15:52:50 2020 -0700
+
+    add lab06
+
+commit 367334d5c10a1d71b84a598c1d34ed4e53328ebb
+Author: Kimberly Zhu <kimberly.zhu.2000@gmail.com>
+Date:   Sat Jul 11 15:01:32 2020 -0700
+
+    add lab 7
+
+commit 69802bf58ec0f00690d1cc6075879ba75704f644
+Author: Kimberly Zhu <kimberly.zhu.2000@gmail.com>
+Date:   Sat Jul 11 14:58:12 2020 -0700
+
+    add lab 7
+
+commit d993b80e4d581feb49d7868391d347e332aa1668
+Merge: 079098e 4c1cfc0
+Author: Caroline Liu <carolinexwliu89@hotmail.com>
+Date:   Mon Jul 6 11:40:52 2020 -0700
+
+    Merge branch 'master' of https://github.com/61c-teach/su20-lab-starter
+
+commit 4c1cfc03e48839ad78c8f2bb1510d137900edb33
+Merge: 02fe13e ef9d6ce
+Author: Caroline Liu <carolinexwliu89@hotmail.com>
+Date:   Mon Jul 6 11:34:23 2020 -0700
+
+    Merge branch 'master' of https://github.com/61c-teach/su20-lab-starter
+
+commit 079098ea5627862af4709a21089ae5d5072124ef
+Author: Caroline Liu <carolinexwliu89@hotmail.com>
+Date:   Mon Jul 6 11:29:42 2020 -0700
+
+    updated venus with dm feature + others
+
+commit 02fe13e7d5b59621cac68fe2761128c6ef03d363
+Author: Caroline Liu <carolinexwliu89@hotmail.com>
+Date:   Mon Jul 6 11:19:04 2020 -0700
+
+    updated venus with dm + other features
+
+commit ef9d6cefb45f4260dd09406d126606a6d3f4f402
+Author: Stephan Kaminsky <thaumicmekanism@gmail.com>
+Date:   Mon Jul 6 10:43:35 2020 -0500
+
+    Updated Venus
+
+commit 57da8ebfb89a2563022ae114ac5befd3515094da
+Merge: cbc596a 9169e75
+Author: Stephan K <thaumicmekanism@gmail.com>
+Date:   Sun Jul 5 20:53:57 2020 -0700
+
+    Merge pull request #5 from 61c-teach/lab05
+    
+    add lab 5
+
+commit 9169e754247576cc1b6bb0e67b51bdcdec1ad72c
+Author: Ivy Li <ivy.li@berkeley.edu>
+Date:   Sun Jul 5 01:39:06 2020 -0700
+
+    add lab 5
+
+commit cbc596a296edd6e5c37de654b26c25fd49f3c564
+Author: malits <maxlitster@gmail.com>
+Date:   Fri Jul 3 12:57:45 2020 -0400
+
+    lab 4
+
+commit dc27c7d354d5d88228b0b8185d2d599ab60f7e3e
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Thu Jul 2 14:01:46 2020 -0700
+
+    [lab02] Ignore test_list
+
+commit 13861251a2c8ee4f4034ed3d5f1519777c550ac9
+Merge: ea04de0 b1aa392
+Author: Stephan K <thaumicmekanism@gmail.com>
+Date:   Sun Jun 28 16:08:11 2020 -0700
+
+    Merge pull request #3 from 61c-teach/week-2
+    
+    Add starter code for lab02 and lab03
+
+commit b1aa392fb9989906744c9d585ea11d78d2f1e956
+Author: Ivy Li <ivy.li@berkeley.edu>
+Date:   Sun Jun 28 15:38:32 2020 -0700
+
+    update venus
+
+commit c24d870daf267ece0ed95750182cbac9ba367f9a
+Author: Jie Qiu <jieqiu0630@gmail.com>
+Date:   Sun Jun 28 14:50:38 2020 -0700
+
+    Fix vector-test in makefile
+
+commit 5ce9e7624619bc69c2d33aff471716ffb889b9d2
+Author: Jie Qiu <jieqiu0630@gmail.com>
+Date:   Sun Jun 28 13:16:25 2020 -0700
+
+    Rename vector test
+
+commit 8536e1ba003e0361d1af8de111b9d5a45045fd04
+Author: Ivy Li <liaiweiwei@gmail.com>
+Date:   Sun Jun 28 00:52:28 2020 -0700
+
+    fix formatting
+
+commit ea04de08483f585663554691419930ee7ad81084
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 21:00:31 2020 -0700
+
+    [git] Fix .gitignore ordering
+
+commit f68989cb9c4b48681ceceabe6b018519b6cee321
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:38:07 2020 -0700
+
+    [git] Force LF in Makefiles
+
+commit 89d6a5a1d01dee593069a72d9032308291f6ec7e
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:35:52 2020 -0700
+
+    [lab02] Remove trailing spaces
+
+commit e578a1c9b9034d3e12f44a37a747a4e6adb53d39
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:34:29 2020 -0700
+
+    [lab02] Ignore compiled binaries
+
+commit f957f04f0b9d82cb63bed59a4fbad8882705c200
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:26:30 2020 -0700
+
+    [lab02] Use LF line endings
+
+commit bf71ec186baa7204edacd609a4bdfbcf4a96b179
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:21:27 2020 -0700
+
+    [lab01] Ignore compiled binaries
+
+commit 03248a545ed0fdb6c890294773bf6dfe60d37720
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Fri Jun 26 20:20:38 2020 -0700
+
+    [git] Ignore Valgrind core dump, a.out
+
+commit a866663d47e754e2c7a9a935449619173ffa8671
+Author: Ivy Li <ivy.li@berkeley.edu>
+Date:   Fri Jun 26 00:20:52 2020 -0700
+
+    added lab 3 and venus
+
+commit fbb99149153734800fb53c84cdee4fc7bc82a4dd
+Merge: 8072e6e 581c9e9
+Author: Jie Qiu <jieqiu0630@gmail.com>
+Date:   Wed Jun 24 12:59:06 2020 -0700
+
+    Merge branch 'lab02' into week-2
+
+commit 8072e6e5f2a4ab6cced71426f878c071cfa6dcae
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Mon Jun 22 19:33:27 2020 -0700
+
+    [git] Apply attributes to known extensions
+    
+    I guess applying to all might mess up binary files in the future.
+
+commit 3f76f9ef99880ff53d32d42678038d6f9d59f939
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Mon Jun 22 19:25:25 2020 -0700
+
+    [git] Force UNIX line endings
+
+commit d43f589984d9131a90887941776b10eea789c81e
+Merge: 0b37ba3 b869c2f
+Author: Stephan K <thaumicmekanism@gmail.com>
+Date:   Sun Jun 21 09:40:58 2020 -0700
+
+    Merge pull request #1 from 61c-teach/lab01
+    
+    Add lab01 starter code
+
+commit 0b37ba3e5b80246be63fd6660d134cbda9740ca3
+Merge: 3eb0344 0d541d9
+Author: Stephan K <thaumicmekanism@gmail.com>
+Date:   Sun Jun 21 09:40:41 2020 -0700
+
+    Merge pull request #2 from 61c-teach/lab00
+    
+    Add lab00 starter code
+
+commit 0d541d9df5e5bb50881a48425fa4ea134ea4d4d0
+Author: Jerry Xu <jerryxu@berkeley.edu>
+Date:   Sun Jun 21 02:17:36 2020 -0700
+
+    [lab00] Import files
+
+commit 581c9e96f38e572a535105b583a5ac599febaed6
+Author: Jie Qiu <jieqiu0630@gmail.com>
+Date:   Sat Jun 20 22:01:55 2020 -0700
+
+    Add lab02 starter code
+
+commit b869c2f323006831c819e7863dfc04829a30f9c3
+Author: Jie Qiu <jieqiu0630@gmail.com>
+Date:   Sat Jun 20 21:23:07 2020 -0700
+
+    Add lab01 starter code
+
+commit 3eb03444459c9b53f240ea9992e60d7deb285bae
+Author: Stephan Kaminsky <thaumicmekanism@gmail.com>
+Date:   Thu May 28 10:02:41 2020 -0700
+
+    Added gitignore
+
+commit ec5d6f5427cdc2414ede025209e1f03d49cc8636
+Author: Stephan K <thaumicmekanism@gmail.com>
+Date:   Thu May 28 10:02:32 2020 -0700
+
+    Create README.md
