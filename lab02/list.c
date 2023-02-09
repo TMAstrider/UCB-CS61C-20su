@@ -4,17 +4,21 @@
 void append_node (node** head_ptr, int new_data) {
 	/* First lets allocate memory for the new node and initialize its attributes */
 	/* YOUR CODE HERE */
-
+	node* newNode = (node *) malloc(sizeof(struct node));
+	newNode->val = new_data;
+	newNode->next = NULL;
 	/* If the list is empty, set the new node to be the head and return */
 	if (*head_ptr == NULL) {
 		/* YOUR CODE HERE */
+		*head_ptr = newNode;
 		return;
 	}
 	node* curr = *head_ptr;
-	while (/* YOUR CODE HERE */ != NULL) {
+	while (/* YOUR CODE HERE */ curr->next != NULL) {
 		curr = curr->next;
 	}
 	/* Insert node at the end of the list */
+	curr->next = newNode;
 	/* YOUR CODE HERE */
 }
 
@@ -26,9 +30,13 @@ void reverse_list (node** head_ptr) {
 	node* next = NULL;
 	while (curr != NULL) {
 		/* INSERT CODE HERE */
+		next = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = next;
 	}
 	/* Set the new head to be what originally was the last node in the list */
-	*head_ptr = /* INSERT CODE HERE */
+	*head_ptr = prev;/* INSERT CODE HERE */
 }
 
 

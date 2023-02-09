@@ -1,7 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1.clean line 46 - 47
+2.all: $ (BINARIES)    line 26
+3.gcc  line 2
+
+4.c99   line 4
+
+6.  $(FOO)
+5. the core Unix operating system
+7.line 31
