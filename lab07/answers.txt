@@ -1,51 +1,75 @@
 Exercise 1
 	Scenario 1
-		1. 
-		2.
-		3.
+		1. Because step size in bytes is exactly equal to total block size in bytes.
+		2. 0. Because the step size doesn't change. Everytime it access the cache. it acceses a whole new slot.
+		3.Change step size to 1.
 
 	Scenario 2
-		1.
-		2.
-		3.
-		4.
-		5.
+		1. 64
+		2. it miss at firt time and hit 3 times afterwards, and repeat
+		3. 75% according to No.2 for the first round of access, and 100% afterwards since the whole data need to be accessed is stored
+		4. approaching 100%
+		5. we should try to access 256 bytes of the array at a time(the number of bytes depend on the cache block size and associativity), and apply all of the function completely before moving on.
+		
 
 	Scenario 3
-		1.
-		2.
-		3.
-		4.
-		5.
+		1. the hit rate of L1 $ is 50%, and 0% for L2 $. the hit rate overall is 50%
+		2. 32 accesses in total, and 16 misses 
+		3. 16 access total. Every time L1 missed , we access L2.
+		4.We can increase the block size of L2.
+		5. remain as the same      increase as we increase the number of blocks in l1
 
 Exercise 2
-	ijk:
-	ikj:
-	jik:
-	jki:
-	kij:
-	kji:
+	ijk:	n = 1000, 2.173 Gflop/s
+	ikj:	n = 1000, 0.557 Gflop/s
+	jik:	n = 1000, 1.853 Gflop/s
+	jki:	n = 1000, 12.966 Gflop/s
+	kij:	n = 1000, 0.618 Gflop/s
+	kji:	n = 1000, 7.006 Gflop/s
 
-	1.
-	2.
-	3.
+
+	1. jki
+	2. ikj
+	3. the smaller our size is , the better the loop performance is 
 
 Exercise 3
 	Part 1
 		blocksize = 20, n = 100: 
+			Testing naive transpose: 0.004 milliseconds
+			Testing transpose with blocking: 0.004 milliseconds
 		blocksize = 20, n = 1000: 
-		blocksize = 20, n = 2000: 
-		blocksize = 20, n = 5000: 
-		blocksize = 20, n = 10000: 
+			Testing naive transpose: 1.306 milliseconds
+			Testing transpose with blocking: 1.434 milliseconds
 
-		1.
-		2.
+		blocksize = 20, n = 2000: 
+			Testing naive transpose: 15.389 milliseconds
+			Testing transpose with blocking: 6.532 milliseconds
+		blocksize = 20, n = 5000: 
+			Testing naive transpose: 296.326 milliseconds
+			Testing transpose with blocking: 53.159 milliseconds
+		blocksize = 20, n = 10000: 
+			Testing naive transpose: 1571.31 milliseconds
+			Testing transpose with blocking: 288.698 milliseconds
+		1. when n equals 2000
+		2. because larger size matrces have to reload some elements in the row 			of the first matrix since too many elements in the second matrix are 		cached in one column where don't if we use cache blocking.
+			Since we operate on and finish transposing each submatrix one 		at a time, we consolidate our memory accesses to that smaller chunk of 			memory when transposing that particular submatrix, which increases the 			degreef temporal (and spatial) locality that we exhibit, which makes 		our cacheperformance better, which makes our program run faster.
 
 	Part 2
 		blocksize = 50, n = 10000:
+		Testing naive transpose: 1394.58 milliseconds
+Testing transpose with blocking: 340.511 milliseconds
 		blocksize = 100, n = 10000:
+		Testing naive transpose: 1564.29 milliseconds
+Testing transpose with blocking: 216.388 milliseconds
 		blocksize = 500, n = 10000:
+		Testing naive transpose: 1523.49 milliseconds
+Testing transpose with blocking: 118.1 milliseconds
 		blocksize = 1000, n = 10000:
+		Testing naive transpose: 1602.07 milliseconds
+Testing transpose with blocking: 221.585 milliseconds
 		blocksize = 5000, n = 10000:
+		Testing naive transpose: 1488.46 milliseconds
+Testing transpose with blocking: 1286.73 milliseconds
 
-		1.
+		1.the performance get better as we increase blocksize from 50 to 500, but it get worse as we increase blocksize from 500 above.
+		reason: beacuse the size of the cache is not large enough for a blocksize of over 500, there's too many elements need to be cached. 
