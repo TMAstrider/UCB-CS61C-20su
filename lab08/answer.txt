@@ -1,0 +1,24 @@
+Exercise 1:
+
+1.32 bytes
+2.3, 7, 0, 7
+3.No, No, 
+
+checkoff questions:
+1.At the very first access, the virtual address was dvided into 2 parts, the first 3-bit as page #, and the last 5-bit as offset. Then the VPN is looked up in TLB. And since None of VPN was matched with page number in TLB, leading a TLB miss.
+    then it goes down to page table. the valid bit of that page is 0, which leads to a page fault. and so it literaly goes down to hard disk and fetch data from it and write to physical memory. and the TLB is updated at the same time.
+
+2. because the hard disk is much bigger than physical memory, and got paged a lot.
+
+Exercise 2:
+1.The memory access: 00 20 40 60 80 a0 c0 e0 00 20.
+you will got 10 miss as long as you don't access four identical address repeatly,
+
+Exercise 3:
+1. Increasing the size of pyhsical memory
+
+Exercise 4:
+1.P1, P2, P3, P4 are 4 different process that accessing pysical memory.
+explaination: cuz every time the process alters, the tlb is somehow cleared, and that the reason for a much higher percentage of TLB misses in this simulation
+
+
