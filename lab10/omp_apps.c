@@ -20,14 +20,66 @@ double dotp_naive(double* x, double* y, int arr_size) {
 }
 
 // EDIT THIS FUNCTION PART 1
+// double dotp_manual_optimized(double* x, double* y, int arr_size) {
+//   double global_sum = 0.0;
+// #pragma omp parallel
+//   {
+//     int thread_ID = omp_get_thread_num();
+//     int num_threads = omp_get_num_threads();
+
+// #pragma omp for
+//     for (int i = 0; i < arr_size; i++)
+
+// #pragma omp critical
+//       global_sum += x[i] * y[i];
+//   }
+//   return global_sum;
+// }
+
+
 double dotp_manual_optimized(double* x, double* y, int arr_size) {
   double global_sum = 0.0;
 #pragma omp parallel
   {
-#pragma omp for
-    for (int i = 0; i < arr_size; i++)
-#pragma omp critical
-      global_sum += x[i] * y[i];
+    int thread_ID = omp_get_thread_num();
+		int num_threads = omp_get_num_threads();
+		int chunkSize = arr_size / num_threads;
+
+    // printf("######################\n \
+    // arraySize is %d \n \
+    // ###################\n ", arr_size);
+
+		// tail case
+		int tail = num_threads * chunkSize;
+		int endTail = arr_size;
+
+		int s = thread_ID * chunkSize;
+		int e = thread_ID * chunkSize + chunkSize;
+
+
+    printf("%d, %d, %d, %d \n", s, e, thread_ID, num_threads);
+    // printf("%d \n", e);
+
+
+    double Tsum = 0;
+    // #pragma omp for
+		for (int i = s; i < e; i++) {
+			Tsum += x[i] * y[i];
+		}
+
+		if (thread_ID == num_threads -1 && tail < endTail) {
+
+      printf("yes I'm in ..OOOOOOOOOOOOOOOOOOOHHHH\n");
+			for(int i = tail; i < arr_size; i++) {
+        Tsum += x[i] * y[i];
+      }
+				
+		}
+
+    #pragma omp critical
+    global_sum += Tsum;
+
+
   }
   return global_sum;
 }
@@ -35,12 +87,14 @@ double dotp_manual_optimized(double* x, double* y, int arr_size) {
 // EDIT THIS FUNCTION PART 2
 double dotp_reduction_optimized(double* x, double* y, int arr_size) {
   double global_sum = 0.0;
-#pragma omp parallel
+// #pragma omp parallel
   {
-#pragma omp for
+// #pragma omp for
+#pragma omp parallel for reduction(+: global_sum)
     for (int i = 0; i < arr_size; i++)
-#pragma omp critical
       global_sum += x[i] * y[i];
+
+      printf("Hola!\n");
   }
   return global_sum;
 }
